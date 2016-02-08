@@ -1,0 +1,64 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        /* border: 1px solid black; */
+        /*The box-sizing property is used to tell the browser what the sizing properties (width and height) should include border-box.*/
+        box-sizing: border-box;
+        /*reset Chrome user agent styles*/
+        -webkit-margin-before: 0px;
+        -webkit-margin-after: 0px;
+        -webkit-margin-start: 0px;
+        -webkit-margin-end: 0px;
+        -webkit-padding-before: 0px;
+        -webkit-padding-after: 0px;
+        -webkit-padding-start: 0px;
+        -webkit-padding-end: 0px;
+    }
+    /* General styles
+ +    (the styles used everywhere in the page (like the Body) or styles which are used in more than 2 of the modules bellow (h2, h3, h4, h5, h6, p, a, ul, li))
+ +*/
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+        background-color: black;
+    }
+    /* Header styles
+ +    (all the styles inside the < header > or < nav > tags)
+ +*/
+
+    header {
+        background-color: #fff;
+        width: 100%;
+        height: 5rem;
+        margin: 0 auto;
+    }
+    /* Content styles
+ +    (all the styles inside the < sections > or < aside > tags) */
+
+    .contentwrap {
+        width: 70%;
+        margin: 0 auto;
+        height: 50rem;
+        background-color: pink;
+    }
+
+    .navright {
+        background-color: red;
+        width: 20%;
+        margin: -2.5rem auto;
+        height: inherit;
+        float: right;
+    }
+    /* Footer styles
+   (all the styles inside the < footer > tag) */
+
+    footer {
+        background-color: #fff;
+        width: 98%;
+        margin: 0 auto;
+        height: 5rem;
+    }
+    /* Responsive styles
+ +    (the very last module in the CSS, contains all the media queries and it is dealing with the compatibility with mobiles and tablets)
